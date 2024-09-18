@@ -1,0 +1,134 @@
+
+* {
+    box-sizing: border-box; 
+}
+
+
+html {
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+header {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+
+header nav a {
+    margin: 0 15px;
+    color: seashell;
+}
+
+.logo {
+    height: 50px;
+    padding-left: 10px;
+}
+
+#mission {
+    background-image: url('../images/img-mission-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 58px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.our-mission{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+
+.our-mission h2, h4 {
+    margin: 10px auto;
+}
+
+/* Tea of the month */
+#tea_month {
+    top: 116px;
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+} 
+
+.images_teas {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.images_teas figure {
+    margin: 15px;
+}
+
+.images_teas img{
+    width: 300px;
+    height: 200px;
+    margin: 0px;
+}
+
+.images_teas figcaption {
+    margin-top: 10px;
+}
+
+#locations {
+    position: relative;
+    top: 174px;
+    background-image: url('../images/img-locations-background.png');
+    height: 500px;
+    width:1200px;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+    
+}
+
+.the_locations {
+    margin: 15px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#locations h2 {
+    margin: 0 auto;
+}
+
+.the_locations div {
+    margin: 0 20px;
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+}
+
+footer {
+    position: relative;
+    top: 180px;
+    text-align: center;
+}
+
+.copyright p {
+    text-align: left;
+    margin: 20px;
+}
