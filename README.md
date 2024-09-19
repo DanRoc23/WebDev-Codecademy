@@ -8,8 +8,10 @@ Create a fictional tea shop website. Click [here](https://content.codecademy.com
 
 ### Built with
 
-1. HTML (Click [here](The_Tea_Cozy/src/index.html) to access to the index.html)
-2. CSS
+1. HTML
+3. CSS
 
-
+> [!NOTE]
+> + Click [here](The_Tea_Cozy/src/index.html) to access to the *index.html*
+> + Click [here](The_Tea_Cozy/assets/css/styles.css) to access to the *styles.css*
 
